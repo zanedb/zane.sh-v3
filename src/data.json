@@ -1,0 +1,13 @@
+{
+  "name": "Zane Davis-Barrs",
+  "description": "Hi, I’m Zane: a developer, designer, and high school student.",
+  "tagline": "I’m a developer, designer, and high school student.",
+  "url": "https://zane.sh",
+  "img": "https://zane.sh/card.png",
+  "currentStatus": "ReactConf",
+  "socials": [
+    { "service": "twitter", "url": "https://twitter.com/zanedb_" },
+    { "service": "github", "url": "https://github.com/zanedb" },
+    { "service": "email-fill", "url": "mailto:contact@zane.sh" }
+  ]
+}

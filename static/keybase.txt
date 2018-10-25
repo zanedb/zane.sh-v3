@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/zanedb
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://zane.sh
+  * I am zanedb (https://keybase.io/zanedb) on keybase.
+  * I have a public key ASCQmSmqgXeXVKLIevbvPjAezgxDIPeHcXoDGhotlHBn-wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120909929aa81779754a2c87af6ef3e301ece0c4320f787717a031a1a2d947067fb0a",
+      "host": "keybase.io",
+      "kid": "0120909929aa81779754a2c87af6ef3e301ece0c4320f787717a031a1a2d947067fb0a",
+      "uid": "6bed4870cccf2d26c3ddfa693b56e019",
+      "username": "zanedb"
+    },
+    "merkle_root": {
+      "ctime": 1505607118,
+      "hash": "642ac4b556b1d73fbd24b7acb512619c369c65f9617184643fed4856a8720c78c186f439cda4810bfff37cf64b1e82c6c55080459c5def55145d899858076c1d",
+      "hash_meta": "2c021fd2760d2e0aaadef3c5c60aaee74840d884ff2d415f100005ed443e4170",
+      "seqno": 1392195
+    },
+    "service": {
+      "hostname": "zane.sh",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.30"
+  },
+  "ctime": 1505607400,
+  "expire_in": 504576000,
+  "prev": "76486ad47f3409b667372775cbb1ec32564c4d429a5d1c25eda1a3fc6f789bd6",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgkJkpqoF3l1SiyHr27z4wHs4MQyD3h3F6AxoaLZRwZ/sKp3BheWxvYWTFAz57ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOTA5OTI5YWE4MTc3OTc1NGEyYzg3YWY2ZWYzZTMwMWVjZTBjNDMyMGY3ODc3MTdhMDMxYTFhMmQ5NDcwNjdmYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOTA5OTI5YWE4MTc3OTc1NGEyYzg3YWY2ZWYzZTMwMWVjZTBjNDMyMGY3ODc3MTdhMDMxYTFhMmQ5NDcwNjdmYjBhIiwidWlkIjoiNmJlZDQ4NzBjY2NmMmQyNmMzZGRmYTY5M2I1NmUwMTkiLCJ1c2VybmFtZSI6InphbmVkYiJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwNTYwNzExOCwiaGFzaCI6IjY0MmFjNGI1NTZiMWQ3M2ZiZDI0YjdhY2I1MTI2MTljMzY5YzY1Zjk2MTcxODQ2NDNmZWQ0ODU2YTg3MjBjNzhjMTg2ZjQzOWNkYTQ4MTBiZmZmMzdjZjY0YjFlODJjNmM1NTA4MDQ1OWM1ZGVmNTUxNDVkODk5ODU4MDc2YzFkIiwiaGFzaF9tZXRhIjoiMmMwMjFmZDI3NjBkMmUwYWFhZGVmM2M1YzYwYWFlZTc0ODQwZDg4NGZmMmQ0MTVmMTAwMDA1ZWQ0NDNlNDE3MCIsInNlcW5vIjoxMzkyMTk1fSwic2VydmljZSI6eyJob3N0bmFtZSI6InphbmUuc2giLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zMCJ9LCJjdGltZSI6MTUwNTYwNzQwMCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI3NjQ4NmFkNDdmMzQwOWI2NjczNzI3NzVjYmIxZWMzMjU2NGM0ZDQyOWE1ZDFjMjVlZGExYTNmYzZmNzg5YmQ2Iiwic2Vxbm8iOjIzLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQNQJaC3WKbHkd/OCor0w/yyqGXlPs9a0H27xsFrwcUwFK/kWlva2jlI2nXzISHUzwk3zf1mjM3nGlLJLSkV7iQmoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBotPZv3+k1ZGAL0/Z3bBtGXIy4seH2zToUSL0QtuCGf6N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zanedb
+
+==================================================================
