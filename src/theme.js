@@ -68,6 +68,7 @@ export const GlobalStyle = createGlobalStyle`
       rgba(255, 0, 0, 1),
       rgba(0, 255, 255, 1)
     );
+    background-repeat: no-repeat;
     background-blend-mode: overlay;
     animation: ${pulse} 16s linear infinite;
   }
