@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import Heading from './Heading'
 import Subheading from './Subheading'
-import { theme } from '../theme'
 import { name, tagline } from '../data.json'
 
 const Avatar = styled.img`
@@ -10,20 +10,11 @@ const Avatar = styled.img`
   height: 12rem;
   width: 12rem;
 `
-const Name = styled.h1`
-  font-size: ${theme.fontSizes.big};
-  font-weight: 700;
-  margin: 1rem 0 0;
-
-  ${theme.mediaQueries.sm} {
-    font-size: ${theme.fontSizes.mediumBig};
-  }
-`
 
 export default () => (
   <>
     <Avatar src="https://github.com/zanedb.png" />
-    <Name children={name} />
+    <Heading children={name} />
     <Subheading>
       <span role="img" aria-label="Wave emoji">
         👋

@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import styled from 'styled-components'
 import { theme, GlobalStyle } from '../theme'
 import data from '../data.json'
 import fonts from '../../static/fonts.css'
@@ -8,6 +9,19 @@ const meta = tags =>
   tags.map((props, index) =>
     React.createElement('meta', { ...props, key: index })
   )
+
+const Wrapper = styled.div`
+  display: flex;
+  flex-flow: column;
+  padding: 3rem;
+  color: ${theme.colors.gray[1]};
+  max-width: 48rem;
+  margin: auto;
+
+  ${theme.mediaQueries.sm} {
+    padding: 1.5rem;
+  }
+`
 
 export default ({ children }) => {
   return (
@@ -36,7 +50,7 @@ export default ({ children }) => {
         ])}
       </Helmet>
       <GlobalStyle />
-      {children}
+      <Wrapper>{children}</Wrapper>
     </>
   )
 }
