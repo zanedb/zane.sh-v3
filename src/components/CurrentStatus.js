@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { theme } from '../theme'
 import Subheading from './Subheading'
+import { Underlined } from './Link'
 import { currentStatus } from '../data.json'
 
 const Status = styled.div`
@@ -25,9 +26,19 @@ const Badge = styled.span`
   }
 `
 
-export default () => (
-  <Status>
-    <Badge children="Currently Fascinated By" />
-    <Subheading>{currentStatus}</Subheading>
-  </Status>
-)
+export default () => {
+  // link to content if URL exists
+  const status = currentStatus.split(',')
+  return (
+    <Status>
+      <Badge children="Currently Fascinated By" />
+      <Subheading>
+        {status[1] ? (
+          <Underlined href={status[1]}>{status[0]}</Underlined>
+        ) : (
+          status[0]
+        )}
+      </Subheading>
+    </Status>
+  )
+}
