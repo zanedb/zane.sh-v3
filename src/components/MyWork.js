@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Underlined } from './Link'
+import { Link } from './Link'
 import { theme } from '../theme'
 
 const ColumnHeading = styled.h4`
@@ -22,26 +22,19 @@ export default () => (
     <List>
       <Item>
         This past year, I helped organize the Midwest’s largest high school
-        hackathon,{' '}
-        <Underlined href="https://hackchicago.io">Hack&nbsp;Chicago</Underlined>
-        .
+        hackathon, <Link href="https://hackchicago.io">Hack&nbsp;Chicago</Link>.
       </Item>
       <Item>
-        I built{' '}
-        <Underlined href="https://shop.hackclub.com">Hack Club Shop</Underlined>
-        , with{' '}
-        <Underlined href="https://merelinguist.me/">@merelinguist</Underlined>{' '}
-        and <Underlined href="https://lachlanjc.me">@lachlanjc</Underlined>.
+        I built <Link href="https://shop.hackclub.com">Hack Club Shop</Link>,
+        with <Link href="https://merelinguist.me/">@merelinguist</Link> and{' '}
+        <Link href="https://lachlanjc.me">@lachlanjc</Link>.
       </Item>
       <Item>
         I’m currently helping organize{' '}
-        <Underlined href="https://hackpenn.com">
-          Hack&nbsp;Pennsylvania
-        </Underlined>{' '}
-        &{' '}
-        <Underlined href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">
+        <Link href="https://hackpenn.com">Hack&nbsp;Pennsylvania</Link> &{' '}
+        <Link href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">
           Hack&nbsp;the&nbsp;Fog
-        </Underlined>
+        </Link>
         .
       </Item>
     </List>
