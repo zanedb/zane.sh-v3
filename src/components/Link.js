@@ -14,4 +14,6 @@ export const Underlined = styled(Link)`
   -webkit-text-underline-position: under;
   text-decoration-style: wavy;
   -webkit-text-decoration-style: wavy;
+  text-decoration-skip: none;
+  -webkit-text-decoration-skip: none;
 `
