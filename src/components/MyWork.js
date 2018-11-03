@@ -25,7 +25,8 @@ export default () => (
         hackathon, <Link href="https://hackchicago.io">Hack&nbsp;Chicago</Link>.
       </Item>
       <Item>
-        I built <Link href="https://shop.hackclub.com">Hack Club Shop</Link>,
+        I built{' '}
+        <Link href="https://shop.hackclub.com">Hack&nbsp;Club&nbsp;Shop</Link>,
         with <Link href="https://merelinguist.me/">@merelinguist</Link> and{' '}
         <Link href="https://lachlanjc.me">@lachlanjc</Link>.
       </Item>
