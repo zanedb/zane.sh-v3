@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { theme } from '../theme'
 import Subheading from './Subheading'
 import { Link } from './Link'
-import { currentStatus } from '../data.json'
+import { currentStatus as status } from '../data.json'
 
 const Status = styled.div`
   margin: 1.5rem 0 0.875rem;
@@ -26,15 +26,15 @@ const Badge = styled.span`
   }
 `
 
-export default () => {
-  // link to content if URL exists
-  const status = currentStatus.split(',')
-  return (
-    <Status>
-      <Badge children="Currently Fascinated By" />
-      <Subheading>
-        {status[1] ? <Link href={status[1]} children={status[0]} /> : status[0]}
-      </Subheading>
-    </Status>
-  )
-}
+export default () => (
+  <Status>
+    <Badge children="Currently Fascinated By" />
+    <Subheading>
+      {status.link ? (
+        <Link href={status.link} children={status.name} />
+      ) : (
+        status.name
+      )}
+    </Subheading>
+  </Status>
+)
