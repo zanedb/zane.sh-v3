@@ -21,8 +21,12 @@ export default () => (
     <ColumnHeading>My Work</ColumnHeading>
     <List>
       <Item>
-        This past year, I helped organize the Midwest’s largest high school
-        hackathon, <Link href="https://hackchicago.io">Hack&nbsp;Chicago</Link>.
+        This year, I organized{' '}
+        <Link href="https://hackchicago.io">
+          Pennsylvania’s largest high school hackathon
+        </Link>
+        , and helped bring coding to many dozens of students (92% had never been
+        to a hackathon).
       </Item>
       <Item>
         I built{' '}
@@ -31,10 +35,13 @@ export default () => (
         <Link href="https://lachlanjc.me">@lachlanjc</Link>.
       </Item>
       <Item>
-        I’m currently helping organize{' '}
-        <Link href="https://hackpenn.com">Hack&nbsp;Pennsylvania</Link> &{' '}
+        In 2018, I organized the Midwest’s largest high school hackathon,{' '}
+        <Link href="https://hackchicago.io">Hack&nbsp;Chicago</Link>.
+      </Item>
+      <Item>
+        I’m currently organizing{' '}
         <Link href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">
-          Hack&nbsp;the&nbsp;Fog
+          Hack&nbsp;the&nbsp;Fog 2.0
         </Link>
         .
       </Item>
