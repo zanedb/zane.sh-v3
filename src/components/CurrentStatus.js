@@ -16,7 +16,7 @@ const Badge = styled.span`
   letter-spacing: 0.375em;
   font-weight: 700;
   border-radius: 4px;
-  padding: 2px 6px;
+  padding: 4px 2px 3px 8px;
   font-size: 1rem;
   opacity: 0.875;
 

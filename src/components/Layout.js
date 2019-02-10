@@ -19,7 +19,7 @@ const Wrapper = styled.div`
   margin: auto;
 
   ${theme.mediaQueries.sm} {
-    padding: 1.5rem;
+    padding: 1rem;
   }
 `
 
