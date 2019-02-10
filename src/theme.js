@@ -15,7 +15,7 @@ const fontSizes = {
   medium: '2rem',
   mediumSmall: '1.8rem',
   small: '1.5rem',
-  mediumBig: '2.4rem',
+  mediumBig: '2.3rem',
 }
 const mediaQueries = {
   sm: '@media (max-width: 32em)',
@@ -27,13 +27,6 @@ export const theme = {
   fontSizes,
   mediaQueries,
 }
-
-const pulse = keyframes`
-  0% { background-color: ${colors.blue[7]}; }
-  33% { background-color: ${colors.fuschia[7]}; }
-  66% { background-color: ${colors.violet[7]}; }
-  100% { background-color: ${colors.blue[7]}; }
-`
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -62,14 +55,6 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-overflow-scrolling: touch;
     font-family: ${fonts.primary};
 
-    background-color: ${colors.blue[5]};
-    background-image: linear-gradient(
-      90deg,
-      rgba(255, 0, 0, 1),
-      rgba(0, 255, 255, 1)
-    );
-    background-repeat: no-repeat;
-    background-blend-mode: overlay;
-    animation: ${pulse} 16s linear infinite;
+    background-color: ${colors.blue[7]};
   }
 `
