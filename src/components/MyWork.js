@@ -22,7 +22,7 @@ export default () => (
     <List>
       <Item>
         This year, I organized{' '}
-        <Link href="https://hackchicago.io">
+        <Link href="https://hackpenn.com">
           Pennsylvania’s largest high school hackathon
         </Link>
         , and helped bring coding to many dozens of students (92% had never been
