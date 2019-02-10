@@ -9,6 +9,6 @@ const Wrapper = styled.div`
 
 export default () => (
   <Wrapper>
-    &copy; {new Date().getFullYear()}. Made with 💖 in Sacramento, CA.
+    &copy; {new Date().getFullYear()}. Made with 💗 in Sacramento, CA.
   </Wrapper>
 )
