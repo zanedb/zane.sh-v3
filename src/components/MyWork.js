@@ -22,7 +22,7 @@ export default () => (
     <List>
       <Item>
         This year, I organized{' '}
-        <Link href="https://hackchicago.io">
+        <Link href="https://hackpenn.com">
           Pennsylvania’s largest high school hackathon
         </Link>
         , and helped bring coding to many dozens of students (92% had never been
@@ -40,10 +40,8 @@ export default () => (
       </Item>
       <Item>
         I’m currently organizing{' '}
-        <Link href="https://www.sfchronicle.com/bayarea/article/Hack-the-Fog-makes-history-as-San-12729895.php">
-          Hack&nbsp;the&nbsp;Fog 2.0
-        </Link>
-        .
+        <Link href="https://windyhacks.com">Windy&nbsp;City&nbsp;Hacks</Link>, a
+        continuation of Hack Chicago.
       </Item>
     </List>
   </>
