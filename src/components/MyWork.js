@@ -39,9 +39,9 @@ export default () => (
         <Link href="https://hackchicago.io">Hack&nbsp;Chicago</Link>.
       </Item>
       <Item>
-        I’m currently organizing{' '}
-        <Link href="https://windyhacks.com">Windy&nbsp;City&nbsp;Hacks</Link>, a
-        continuation of Hack Chicago.
+        I’m currently leading a{' '}
+        <Link href="https://hackclub.com">Hack&nbsp;Club</Link> at
+        my high school.
       </Item>
     </List>
   </>
