@@ -5,8 +5,8 @@
   "url": "https://zane.sh",
   "img": "https://zane.sh/card.png",
   "currentStatus": {
-    "name": "Windy City Hacks",
-    "link": "https://windyhacks.com"
+    "name": "Hack Club",
+    "link": "https://hackclub.com"
   },
   "socials": [
     { "service": "twitter", "url": "https://twitter.com/zanedb_" },
