@@ -21,7 +21,7 @@ export default () => (
     <ColumnHeading>My Work</ColumnHeading>
     <List>
       <Item>
-        This year, I organized{' '}
+        Last year, I organized{' '}
         <Link href="https://hackpenn.com">
           Pennsylvania’s largest high school hackathon
         </Link>
